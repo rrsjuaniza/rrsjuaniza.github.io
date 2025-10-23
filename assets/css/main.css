@@ -2221,14 +2221,14 @@ input, select, textarea {
 			}
 
 		#header .button {
-			display: inline-block;
-			border-radius: 100%;
+			display: inline;
+			border-radius: 25px;
 			width: 4.5em;
 			height: 4.5em;
-			line-height: 4.5em;
+			line-height: 2em;
 			text-align: center;
 			font-size: 1.25em;
-			padding: 0;
+			padding: 10px 20px;
 		}
 
 		#header hr {
