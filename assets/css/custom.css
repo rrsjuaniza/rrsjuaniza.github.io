@@ -30,6 +30,11 @@ header #logo.myname {
     border: 2px solid;
 }
 
+#header .col-12 ul.icons{
+    left: -1.5em;
+    top: 3em;
+}
+
 
 /* ======= #WEB ======= */
 @media (min-width:1025px) {
