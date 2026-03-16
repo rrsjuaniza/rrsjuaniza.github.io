@@ -1,0 +1,62 @@
+
+#header hr {display: none;}
+.hero-inner {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1400px;
+    text-align: left;
+}
+
+header #logo.myname {
+    display: block;
+    text-align: left;
+}
+
+.given-name{
+    font-size: 1em;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: normal;
+}
+
+.surname{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.hb-btn a {
+    background-color: transparent;
+    border: 2px solid;
+}
+
+
+/* ======= #WEB ======= */
+@media (min-width:1025px) {
+    #header header > p {
+    font-size: 2.25em;
+    letter-spacing: 15px;
+    line-height: inherit;
+    letter-spacing: 0.6em;
+}
+}
+
+
+/* ======= #MOBILE ======= */
+@media (max-width: 1024px) {
+    body.homepage #header {
+        height: min-content;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+    #header header>p {
+        letter-spacing: 1.5em;
+    }
+}
+
+@media (max-width:767px) {
+    #header header>p {
+        letter-spacing: 1em;
+    }
+}
